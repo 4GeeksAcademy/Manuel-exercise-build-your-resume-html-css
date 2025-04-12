@@ -1,0 +1,188 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  /* Encabezado */
+  header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  } 
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #333;
+  }
+  header p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .contact span {
+    font-size: 14px;
+    color: #777;
+  }
+  .content {
+    display: flex;
+    gap: 10px;
+  }
+  .left-column,
+  .right-column {
+    width: 50%;
+  }
+  /* Estilos generales en cada sectionn */
+  .section {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  } 
+  .section h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  /* Columna Izquierda Helpdesk Experience y Education */
+  .left-column p,
+  .left-column ul {
+    font-size: 14px;
+    color: #555;
+  }
+  .left-column ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: disc;
+    padding: 0;
+  }
+  .left-column ul li {
+    margin-bottom: 6px;
+  }
+  /* Info Educación */
+  .edu h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  .edu p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+  }
+  /* Columna Derecha — Skills y Work Experience */
+  /* Skills */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .skills span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  /* Work Experience */
+  .job h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  .job-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .job-date::before,
+  .job-date::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #ccc;
+  }
+  .job-date::before {
+    margin-right: 15px;
+  }
+  .job-date::after {
+    margin-left: 15px;
+  }
+  .job-date span {
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    padding: 0 10px;
+  }
+.job {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  /* Columna de la fecha */
+  .job-timeline {
+    width: 50px;       
+    position: relative;
+    padding-right: 20px;
+    text-align: right;
+  }
+  .job-timeline::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;       
+    width: 2px;
+    background-color: #ccc;
+  }
+  /* Estilo para la caja de fecha */
+  .job-date {
+    display: inline-block;
+    background-color: #fff;
+    padding: 1px 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    font-size: 5px;
+    color: #555;
+  }
+  .job-details {
+    flex: 1;
+    padding-left: 15px;
+  }
+  .job p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 10px 0;
+  }
+  .job ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  .job ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
